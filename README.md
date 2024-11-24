@@ -1,2 +1,14 @@
 # nlp_final
- Hello
+Our task/question was comparing was buiding a topic model trained on song lyrics to look at it's proficiency in grouping songs compared to us as humans and chatgpt based on lyrics.
+
+Details about our dataset can be found here: https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset
+(should be included in the submission but on the off chance it's too big or incovnenient it can be downloaded here as well)
+
+Our implementation is sourced from and built on top of https://www.kaggle.com/code/samuelcortinhas/nlp6-topic-modelling-with-lda/notebook#3.-Application
+
+Chatgpt was consulted for dataframe formatting as well as api usage
+
+We created a virtual env and ran pip install -r requirements.txt
+Then download the spacy model by running python -m spacy download en_core_web_sm
+you can then hit run all and watch it go to work
+you may run into an issue with max requests reached which means they've capped the requests for that app for a time period. To solve this, just register a new app onthe spotify api's website and paste the new client id and secret in the code

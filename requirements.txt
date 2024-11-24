@@ -1,2 +1,12 @@
-"pip install numpy scipy gensim pandas spacy"
-"Then install everything else"
+gensim==4.3.3
+numpy==1.26.4
+pandas==2.2.3
+spacy==3.7.5
+matplotlib==3.9.2
+pyLDAvis==3.4.1
+scipy==1.13.1
+seaborn==0.13.2
+spotipy==2.24.0
+wordcloud==1.9.4
+ipython==8.18.1
+dataframe_image
