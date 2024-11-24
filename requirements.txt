@@ -1,0 +1,2 @@
+"pip install numpy scipy gensim pandas spacy"
+"Then install everything else"
